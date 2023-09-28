@@ -45,6 +45,6 @@ You can set thresholds for your required test coverage. If your changes don't ha
 
 CodeClimate's quality check is free to use for open source GitHub repositories.
 
-## CI with Jenkins
+## CI with Azure Devops
 
-We use Jenkins for our internal build servers.
+We use Azure Dev Ops for our internal build proceses.

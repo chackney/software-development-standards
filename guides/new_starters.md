@@ -14,7 +14,7 @@ The Government Digital Service (GDS) sets standards for government digital servi
 
 You can read these standards here:
 
-- [Service standard](https://www.gov.uk/service-manual/service-standard)
+- [Service standard](https://www.gov.uk/service-manual/service-standar)d
 - [Service manual](https://www.gov.uk/service-manual)
 
 ## Meet the community

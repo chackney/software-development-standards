@@ -12,14 +12,14 @@ the load balancer.
 The documentation for [NGINX's chart](https://github.com/kubernetes/ingress-nginx) includes details on how to install it.
 
 *TL;DR:*
-
+  
 ```
 helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
 helm install my-release ingress-nginx/ingress-nginx
 ```
 
-### Creating a namespace for a service
-Each service in a cluster will have their own dedicated namespace in each cluster.
+### Creating a namespace for a project 
+Each project in a cluster will have their own dedicated namespace(s) in each cluster. A project must have at least one namespace, but may have multiple.
 
 This allows logical separation between services as well as the enabling simpler implementation of monitoring, RBAC and stability mechanisms.
 
