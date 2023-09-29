@@ -128,6 +128,6 @@ description: "This priority class should be used for most services"
 In the event a cluster has to make a choice between killing one of two services sharing the same priority level, the resource profile configuration will influence which is killed.
 
 ### Probes
-To increase the stability and predicatability of a Kubernetes cluster, services should make use of both readiness and liveness probes unless there is a significant reason not to.
+To increase the stability and predicatability of a Kubernetes cluster, services should make use of both readiness and liveness probes unless there is a significant reason not to. Please read the following to understand the difference between the two types of probe. [Configure Liveness and Readiness Probes](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/)   
 
 Probe end points should follow the convention of `healthy` for readiness probes and `healthz` for liveness probes.

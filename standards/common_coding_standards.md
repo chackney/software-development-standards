@@ -95,7 +95,7 @@ All repos are connected to a security tool to monitor for vulnerabilities in the
 
 ### All code has dependency checking
 
-No out of date dependencies or libraries with known vulnerabilities.
+No out of date dependencies or libraries with known vulnerabilities. [see security standards](../principles/security_principles.md))
 
 ## Status
 
