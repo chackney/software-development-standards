@@ -79,7 +79,7 @@ Ensure your service's compliance with the following:
 
 ## Continuous integration (pipeline)
 
-By default we use Jenkins for continuous integration and to manage deployments.
+By default we use Azure Devops for continuous integration and to manage deployments.
 
 Where possible, build automated tests into the team's continuous integration process, so that only working code can be deployed. These can be done for functional testing as well as performance and accessibility.
 
