@@ -16,9 +16,9 @@ Gitflow is useful for teams that like the space to combine multiple features, or
 
 Using this workflow we only use two branches
 
-- **Master** is the main branch developers work from. It represents the latest version of the code. The key principle is that master is always production ready. Anything merged in needs to have been peer reviewed, passed by CI, and ready for release.
+- **Master** is the main branch developers work from. It represents the latest version of the code. The key principle is that main is always production ready. Anything merged in needs to have been peer reviewed, passed by CI, and ready for release.
 
-- A **Feature** branch is started each time we want to add to, update or fix something in the code. We branch off Master when creating the feature, and once complete merge it back in
+- A **Feature** branch is started each time we want to add to, update or fix something in the code. We branch off main when creating the feature, and once complete merge it back in
 
 ## All branches
 
